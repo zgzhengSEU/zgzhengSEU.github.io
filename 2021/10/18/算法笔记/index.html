@@ -431,37 +431,6 @@
 
 <div class="row justify-position">
   <div class="main-content">
-    
-      
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-          tex2jax: {
-            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-            processEscapes: true
-          }
-        });
-      </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-            tex2jax: {
-              skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-            }
-          });
-      </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-              var all = MathJax.Hub.getAllJax(), i;
-              for(i=0; i < all.length; i += 1) {
-                  all[i].SourceElement().parentNode.className += ' has-jax';
-              }
-          });
-      </script>
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-    
     <article class="post post-detail">
       <div class="post-content">
         <h2 id="算法基础">算法基础</h2>
@@ -1757,6 +1726,8 @@ f_{i,j}&amp;=&amp;\max(f_{i-1,j}\;,\;f_{i-1,j-v_i}+w_i\;,\;f_{i-1,j-2v_i}+2w_i\;
 </script>
 
 
+
+
       </main>
     </div>
 
@@ -2444,5 +2415,20 @@ f_{i,j}&amp;=&amp;\max(f_{i-1,j}\;,\;f_{i-1,j-v_i}+w_i\;,\;f_{i-1,j-2v_i}+2w_i\;
 
 
 
-  </body>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
