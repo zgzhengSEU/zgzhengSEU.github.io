@@ -88,14 +88,21 @@
 
   
   <url>
-    <loc>https://zgzheng.top/tags/%E5%B7%A5%E7%A8%8B%E7%9F%A9%E9%98%B5/</loc>
+    <loc>https://zgzheng.top/tags/Hexo/</loc>
     <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zgzheng.top/tags/%E5%93%88%E5%B8%8C/</loc>
+    <loc>https://zgzheng.top/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2021-10-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zgzheng.top/tags/%E5%B7%A5%E7%A8%8B%E7%9F%A9%E9%98%B5/</loc>
     <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -109,14 +116,14 @@
   </url>
   
   <url>
-    <loc>https://zgzheng.top/tags/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://zgzheng.top/tags/%E5%93%88%E5%B8%8C/</loc>
     <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zgzheng.top/tags/Hexo-%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://zgzheng.top/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
